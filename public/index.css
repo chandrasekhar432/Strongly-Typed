@@ -1,0 +1,189 @@
+@import url(./assign6_1.css);
+
+body{
+    margin:  0% auto;
+    /* width: 100%; */
+    
+}
+/* @media all and (min-width :100px) and (max-width:400px) {
+    body {
+        background-color: rgb(18, 230, 18);
+    }
+} */
+
+
+
+#demo0{
+    border: 1px solid;
+    height: 55px;
+    background-color: rgba(55, 61, 73, 0.975);
+    width: 100%;
+    /* position: fixed; */
+    /* position: sticky; */
+    position: fixed;
+    z-index: 1;
+    
+}
+#demo1{
+    color: #fff;
+    position: absolute;
+    top: 18px;
+    left: 10px;
+    font-size: large;
+}
+#demo2{
+    border: 1px solid;
+    border-color:rgba(360,360,360, 0.3);
+
+    height: 40px;
+    width: 301px;
+    position: absolute;
+    margin: 8px;
+    left: 140px;
+    list-style: none;   
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        align-content: center;
+        border-radius: 3px;
+
+
+}
+#chandu{
+    /* border: 1px solid; */
+    height: 25px;
+    padding: 8px;
+}
+
+
+#demo2>li:first-child{
+    background-color: #676d79;
+}
+#demo2>li:hover{
+    background-color: #676d79;
+    opacity: 0.1px;
+}
+#demo2>li a{
+    color: #fff;
+    text-decoration: none;
+}
+#demo3{
+    border: 1px solid;
+    border-color: rgba(360,360,360, 0.3);
+    height: 40px;
+    width: 45px;
+    list-style: none;
+    position: absolute;
+    margin: 8px;
+    left: 450px;
+    border-radius: 3px;
+
+}
+#demo3:hover a>img{
+    color: orangered;
+    background-color: orangered;
+}
+#demo3:hover{
+    border-color: orangered;
+    color: orangered;
+}
+/* #demo3>a>img:hover{
+    color: orangered;
+} */
+#demo3>a>img{
+    height: 15px;
+    width: 15px;
+    position:  absolute;
+    top: 10px;
+    left: 15px;
+    /* background-color:#676d79 ; */
+    filter: invert(95%) sepia(0%) saturate(7500%) hue-rotate(79deg) brightness(110%) contrast(96%);
+}
+#demo4{
+    border: 1px solid;
+    border-color: rgba(360,360,360, 0.3);
+    height: 40px;
+    width: 150px;
+    list-style: none;
+    position: absolute;
+    /* top: 10px; */
+    margin: 8px;
+    left: 1070px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 3px ;
+}
+#demo4>li button{
+    border: rgba(0, 0, 0, 0.3);
+    background-color: #1d9bf0;
+}
+#demo4>li+li>button{
+    border-radius: 20px;
+
+}
+
+#demo4>li>button a{
+    color: #fff;
+    text-decoration: none;
+}   
+#chandu1{
+    height: 15px;
+    width: 15px;
+    /* background-color: #fff; */
+    /* color: #fff; */
+    /* color: #1d9bf0; */
+    filter: invert(95%) sepia(0%) saturate(7500%) hue-rotate(79deg) brightness(110%) contrast(96%);
+}
+
+#demo5{
+    border: 1px solid;
+    border-color: rgba(360,360,360, 0.3);
+    height: 40px;
+    width: 80px;
+    list-style: none;
+    position: absolute;
+    margin: 8px;
+    left: 1240px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    border-radius: 3px;
+
+}
+#demo5>li a{
+    color: #fff;
+    text-decoration: none;
+}
+#demo5:hover{
+    border-color: orangered;
+
+}
+#demo5:hover li>a{
+    border-color: orangered;
+    color: orangered;
+}
+#demo6{
+    border: 1px solid;
+    border-color: rgba(360,360,360, 0.3);
+    height: 40px;
+    width: 160px;
+    list-style: none;
+    position: absolute;
+    margin: 8px;
+    left: 1330px;
+    display: flex;
+    justify-content: left;
+    padding-left: 25px;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: #E7746F;
+    border-radius: 3px ;
+
+}
+#demo6>li>a{
+    color: #fff;
+    text-decoration: none;
+}
